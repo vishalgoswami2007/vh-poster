@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#0f0f0f;
+    color:white;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#000;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo span{
+    font-size:14px;
+    vertical-align:super;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    margin-left:25px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#ffcc00;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    color:#ccc;
+}
+
+/* Poster Grid */
+.container{
+    padding:40px 8%;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1a1a1a;
+    border-radius:12px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 0 15px rgba(255,255,255,0.05);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(255,204,0,0.4);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.price{
+    text-align:center;
+    padding:15px;
+    font-size:20px;
+    font-weight:600;
+    color:#ffcc00;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+    transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+    background:#1ebe5d;
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+    margin-top:50px;
+    color:#777;
+}
