@@ -124,3 +124,44 @@ footer{
     margin-top:50px;
     color:#777;
 }
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.navbar {
+  background: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  color: gold;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.page {
+  padding: 40px;
+  text-align: center;
+}
+
+.product {
+  background: #f4f4f4;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+}
